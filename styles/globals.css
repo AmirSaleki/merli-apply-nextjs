@@ -14,3 +14,32 @@ a {
 * {
   box-sizing: border-box;
 }
+
+:root {
+  --darkBlue: #366060;
+  --lightBlue: #85eded;
+  --primaryBlue: #6fc7c7;
+  --textBlue: #224141;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Vazir", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 300;
+  line-height: 1.8;
+  width: 100%;
+  height: 100%;
+}
+
+@media only screen and (max-width: 1000px) {
+  body {
+    font-size: 0.875rem;
+  }
+}
