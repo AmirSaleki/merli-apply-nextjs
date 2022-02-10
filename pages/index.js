@@ -1,4 +1,9 @@
 import Navbar from "../components/Navbar/Navbar.component";
+import Slideshow from "../components/Slideshow/Slideshow.component";
+import Services from "../components/Services/Services.component";
+import Forum from "../components/Forum/Forum.component";
+import Contact from "../components/Contact/Contact.component";
+import Footer from "../components/Footer/Footer.component";
 import Head from "next/head";
 import Script from "next/script";
 
@@ -7,6 +12,7 @@ export default function Home() {
     <>
       <Head>
         <meta charset="utf-8" />
+        <link rel="icon" href="/favicon.ico" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#000000" />
         <meta
@@ -30,6 +36,11 @@ export default function Home() {
         crossOrigin="anonymous"
       ></Script>
       <Navbar />
+      <Slideshow />
+      <Services />
+      <Forum />
+      <Contact />
+      <Footer />
     </>
   );
 }
