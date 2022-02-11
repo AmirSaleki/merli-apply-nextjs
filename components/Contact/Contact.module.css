@@ -1,74 +1,87 @@
 .background {
   background-color: var(--lightBlue);
-  padding: 2rem 2rem;
-  max-width: 100%;
-  max-height: 100%;
+  padding: 2rem;
   display: flex;
   justify-content: center;
+  align-content: center;
 }
 
 .cardSize {
   width: 50%;
-  height: 20%;
 }
 
 .container {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  align-items: stretch;
+  justify-items: center;
   color: var(--darkBlue);
 }
 
 .profile {
   flex: 1;
-  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   overflow: hidden;
 }
 
 .info {
-  flex: 2;
-  gap: 1rem;
-  max-width: 100%;
+  flex: 1.5;
   margin: 2rem;
   text-align: right;
 }
 
-.info p {
+.infoPar {
   margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .contactDetails {
   text-align: left;
 }
 
-.profile img {
+.profileImage {
   border-top-left-radius: 25px;
   border-bottom-left-radius: 25px;
-  width: 100%;
-  height: 100%;
+  flex-shrink: 0;
+  min-width: 100%;
+  min-height: 100%;
 }
 
 @media only screen and (max-width: 1000px) {
   .background {
-    padding: 0.5rem;
+    padding: 0.2rem;
   }
 
   .cardSize {
-    -webkit-transform: scale(0.8);
-    -moz-transform: scale(0.8);
-    -ms-transform: scale(0.8);
-    transform: scale(0.8);
+    -webkit-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
     padding: 0;
     margin: 0;
     width: 100%;
   }
 
   .profile {
-    flex: 5;
+    flex: 3;
+  }
+
+  .profileImage {
+    width: 100%;
+    object-fit: cover;
+
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
   }
 
   .info {
-    flex: 4;
+    flex: 3;
     gap: 0;
     margin: 0.4rem;
   }

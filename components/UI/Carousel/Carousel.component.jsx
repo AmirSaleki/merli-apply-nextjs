@@ -1,14 +1,14 @@
 import React from "react";
 import css from "./Carousel.module.css";
-import bannerWhole from "../../../resources/images/bannerWhole.png";
+import bannerWhole from "../../../resources/images/bannerWhole.webp";
 import AwesomeSlider from "react-awesome-slider";
 import "react-awesome-slider/dist/styles.css";
 import withAutoplay from "react-awesome-slider/dist/autoplay";
-import img1 from "../../../resources/images/universities/1.jpg";
-import img2 from "../../../resources/images/universities/2.jpg";
-import img3 from "../../../resources/images/universities/3.jpg";
-import img4 from "../../../resources/images/universities/4.jpg";
-import img5 from "../../../resources/images/universities/5.jpg";
+import img1 from "../../../resources/images/universities/1.webp";
+import img2 from "../../../resources/images/universities/2.webp";
+import img3 from "../../../resources/images/universities/3.webp";
+import img4 from "../../../resources/images/universities/4.webp";
+import img5 from "../../../resources/images/universities/5.webp";
 import Image from "next/image";
 
 const Carousel = () => {

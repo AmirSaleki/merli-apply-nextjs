@@ -2,8 +2,12 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: "Vazir", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 300;
+  line-height: 1.8;
+  width: 100%;
+  height: 100%;
 }
 
 a {
@@ -13,6 +17,10 @@ a {
 
 * {
   box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
 }
 
 :root {
@@ -20,22 +28,6 @@ a {
   --lightBlue: #85eded;
   --primaryBlue: #6fc7c7;
   --textBlue: #224141;
-}
-
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  scroll-behavior: smooth;
-}
-
-body {
-  font-family: "Vazir", sans-serif;
-  font-size: 1.125rem;
-  font-weight: 300;
-  line-height: 1.8;
-  width: 100%;
-  height: 100%;
 }
 
 @media only screen and (max-width: 1000px) {

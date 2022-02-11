@@ -1,7 +1,7 @@
-import universityTypes from "../../resources/images/articles/article-images/Hochschularten.jpg";
-import admission from "../../resources/images/articles/article-images/admission.jpg";
-import universityFees from "../../resources/images/articles/article-images/universityFees.jpg";
-import documents from "../../resources/images/articles/article-images/documents.jpg";
+import universityTypes from "../../resources/images/articles/article-images/Hochschularten.webp";
+import admission from "../../resources/images/articles/article-images/admission.webp";
+import universityFees from "../../resources/images/articles/article-images/universityFees.webp";
+import documents from "../../resources/images/articles/article-images/documents.webp";
 
 const articleData = [
   {

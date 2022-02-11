@@ -5,10 +5,6 @@
   justify-content: center;
   text-align: right;
   scroll-behavior: smooth;
-  font-family: "Vazir", sans-serif;
-  font-size: 1.125rem;
-  font-weight: 300;
-  line-height: 1.8;
 }
 
 .cardFrame {
@@ -27,7 +23,7 @@
   padding: 2rem 2rem;
 }
 
-.menu ul {
+.menuUl {
   list-style: none;
   padding: 1rem;
   border: solid 1px var(--darkBlue);
@@ -37,7 +33,7 @@
   top: 1.5rem;
 }
 
-.menu li {
+.menuLi {
   padding: 0.5rem 0;
   border-bottom: solid 0.5 black;
   cursor: pointer;
@@ -51,22 +47,17 @@
   padding: 2rem 2rem;
 }
 
-.content img {
-  width: 100%;
-  object-fit: cover;
-  border-radius: 10px;
-}
-
 .contentText {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  padding: 1rem;
 }
 
 .contentImage {
+  width: 100%;
   object-fit: cover;
   border-radius: 20px;
-  margin: 1rem;
+  margin: 2rem;
 }
 
 .articleUl {

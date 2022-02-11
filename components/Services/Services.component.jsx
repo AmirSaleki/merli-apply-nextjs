@@ -1,6 +1,7 @@
 import React from "react";
 import css from "./Services.module.css";
 import Card from "../UI/Card/Card.component";
+import Image from "next/image";
 
 const About = () => {
   return (
@@ -9,7 +10,7 @@ const About = () => {
       <Card>
         <div className={css.cardContainer}>
           <div className={css.cardImage}>
-            <img
+            <Image
               src="https://www.insidehighered.com/sites/default/server_files/media/image_15.png"
               alt="pp"
             />
@@ -23,7 +24,7 @@ const About = () => {
       <Card>
         <div className={css.cardContainer}>
           <div className={css.cardImage}>
-            <img
+            <Image
               src="https://islamabad.embaixadaportugal.mne.gov.pt/images/notary-1000x600.jpg"
               alt="pp"
             />
@@ -37,7 +38,7 @@ const About = () => {
       <Card>
         <div className={css.cardContainer}>
           <div className={css.cardImage}>
-            <img
+            <Image
               src="https://www.studying-in-germany.org/wp-content/uploads/2018/08/learn-german-language-with-online-courses.jpg"
               alt="pp"
             />

@@ -22,10 +22,10 @@ const Navbar = () => {
           <Link href="/articles" className={css.links}>
             مقالات
           </Link>
-          <Link href="#forum" className={css.links}>
+          <Link href="/#forum" className={css.links}>
             فرم ارزیابی
           </Link>
-          <Link href="#contact" className={css.links}>
+          <Link href="/#contact" className={css.links}>
             تماس با ما
           </Link>
         </div>
@@ -44,10 +44,10 @@ const Navbar = () => {
           <Link className={css.links} href="/articles">
             مقالات
           </Link>
-          <Link className={css.links} href="#forum">
+          <Link className={css.links} href="/#forum">
             فرم ارزیابی
           </Link>
-          <Link className={css.links} href="#contact">
+          <Link className={css.links} href="/#contact">
             تماس با ما
           </Link>
         </div>

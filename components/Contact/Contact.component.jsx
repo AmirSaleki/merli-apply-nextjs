@@ -1,7 +1,7 @@
 import React from "react";
 import css from "./Contact.module.css";
 import Card from "../UI/Card/Card.component";
-import profilePicture from "../../resources/images/Profile.jpg";
+import profilePicture from "../../resources/images/Profile.webp";
 import Image from "next/image";
 
 const Contact = () => {
@@ -12,11 +12,15 @@ const Contact = () => {
           <Card>
             <div className={css.container}>
               <div className={css.profile}>
-                <Image src={profilePicture} alt="profilepicture" />
+                <Image
+                  className={css.profileImage}
+                  src={profilePicture}
+                  alt="profilepicture"
+                />
               </div>
               <div className={css.info}>
                 <h2>علیرضا سالکی</h2>
-                <p>
+                <p className={css.infoPar}>
                   مدرس زبان آلمانی با سابقه ۶ سال تدریس و سکونت در آلمان همراهی
                   مطمئن جهت یاری تمامی علاقه مندهای تحصیل در آلمان
                 </p>

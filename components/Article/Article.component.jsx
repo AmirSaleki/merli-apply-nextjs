@@ -2,7 +2,7 @@ import React from "react";
 import css from "./Article.module.css";
 import Card from "../UI/Card/Card.component";
 import articleData from "./ArticleData";
-import bannerImage from "../../resources/images/articles/banner.jpg";
+import bannerImage from "../../resources/images/articles/banner.webp";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -14,8 +14,8 @@ const Article = () => {
           <Card>
             <div className={css.cardContainer}>
               <div className={css.menu}>
-                <ul className={css.articleUl}>
-                  <li>
+                <ul className={css.menuUl}>
+                  <li className={css.menuLi}>
                     <Link
                       href="/"
                       style={{ color: "var(--textBlue)", fontWeight: "800" }}
@@ -25,10 +25,13 @@ const Article = () => {
                     </Link>
                   </li>
                   {articleData.map((content) => (
-                    <li key={content.id}>
-                      <a className={css.navMenuLinks} href={`#${content.id}`}>
+                    <li key={content.id} className={css.menuLi}>
+                      <Link
+                        className={css.navMenuLinks}
+                        href={`#${content.id}`}
+                      >
                         {content.title}
-                      </a>
+                      </Link>
                     </li>
                   ))}
                 </ul>
