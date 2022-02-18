@@ -2,6 +2,9 @@ import React from "react";
 import css from "./Services.module.css";
 import Card from "../UI/Card/Card.component";
 import Image from "next/image";
+import photo1 from "../../resources/services.png";
+import photo2 from "../../resources/services1.jpg";
+import photo3 from "../../resources/services2.jpg";
 
 const About = () => {
   return (
@@ -10,10 +13,7 @@ const About = () => {
       <Card>
         <div className={css.cardContainer}>
           <div className={css.cardImage}>
-            <Image
-              src="https://www.insidehighered.com/sites/default/server_files/media/image_15.png"
-              alt="pp"
-            />
+            <Image src={photo1} alt="pp" />
           </div>
           <div className={css.cardText}>
             <h3>اخذ پذیرش دانشگاه و خوابگاه</h3>
@@ -24,10 +24,7 @@ const About = () => {
       <Card>
         <div className={css.cardContainer}>
           <div className={css.cardImage}>
-            <Image
-              src="https://islamabad.embaixadaportugal.mne.gov.pt/images/notary-1000x600.jpg"
-              alt="pp"
-            />
+            <Image src={photo2} alt="pp" />
           </div>
           <div className={css.cardText}>
             <h3>راهنمای امور مربوط به سفارت</h3>
@@ -38,10 +35,7 @@ const About = () => {
       <Card>
         <div className={css.cardContainer}>
           <div className={css.cardImage}>
-            <Image
-              src="https://www.studying-in-germany.org/wp-content/uploads/2018/08/learn-german-language-with-online-courses.jpg"
-              alt="pp"
-            />
+            <Image src={photo3} alt="pp" />
           </div>
           <div className={css.cardText}>
             <h3>آموزش زبان آلمانی</h3>
